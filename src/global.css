@@ -1,0 +1,25 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter Variable', sans-serif;
+    font-size: 14px;
+    background-color: #282828;
+}
+
+button {
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    border: none;
+}
+
+input {
+    font-family: inherit;
+    font-size: inherit;
+    outline: none;
+    border: none;
+}

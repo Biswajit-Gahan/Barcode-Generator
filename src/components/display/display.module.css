@@ -1,0 +1,58 @@
+.displayContainer {
+    width: 100%;
+    background-color: #141414;
+    border-radius: 10px;
+    padding: 15px;
+    color: #fff;
+    font-family: 'Fira Code Variable', monospace;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.input {
+    background-color: transparent;
+    border: 1px dashed transparent;
+    border-bottom-color: #8A8A8A;
+    color: #8A8A8A;
+    padding: 5px 0;
+    font-size: 12px;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.emptyInput {
+    border-bottom-color: #DE2525;
+}
+
+.generateContainer {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.generateButton {
+    width: fit-content;
+    padding: 8px;
+    background-color: #71A700;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 10px;
+}
+
+.addButton {
+    width: fit-content;
+    padding: 8px 25px;
+    background-color: #71A700;
+    color: #fff;
+    border-radius: 3px;
+}
